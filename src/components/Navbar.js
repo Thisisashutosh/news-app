@@ -8,7 +8,7 @@ export class Navbar extends Component {
         <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
           <div className="container-fluid">
             <Link className="navbar-brand" to="/">
-              NewsMonkey
+              VishwaVarta
             </Link>
             <button
               className="navbar-toggler"
@@ -60,38 +60,6 @@ export class Navbar extends Component {
                   <Link className="nav-link" to="/technology">
                     Technology
                   </Link>
-                </li>
-                <li class="nav-item dropdown mx-30">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="/"
-                    id="navbarDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Choose country
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li>
-                      <a class="dropdown-item" href="/">
-                        Australia
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="/">
-                        USA
-                      </a>
-                    </li>
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="/">
-                        India
-                      </a>
-                    </li>
-                  </ul>
                 </li>
               </ul>
             </div>

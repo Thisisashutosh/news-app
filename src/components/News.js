@@ -87,7 +87,7 @@ export class News extends Component {
           className="text-center"
           style={{ margin: "35px 0px", marginTop: "90px" }}
         >
-          NewsMonkey -top {this.props.category} headlines
+          VishwaVarta -top {this.props.category} headlines
         </h1>
         {this.state.loading && <Spinner />}
         <div className="row">
